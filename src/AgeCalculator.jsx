@@ -44,7 +44,7 @@ const MyDatePicker = () => {
       {ageDetails && (
         <p className="mt-2 text-lg">
           Edad: {ageDetails.years} años, {ageDetails.months} meses,{" "}
-          {ageDetails.days} días, {ageDetails.hours} horas
+          {ageDetails.days} días
         </p>
       )}
     </div>
